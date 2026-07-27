@@ -14,9 +14,11 @@ export default function Hero() {
           {profile.name}
         </h1>
         <p className="mt-4 text-lg text-muted">{profile.title}</p>
-        <p className="mt-8 max-w-xl text-base leading-relaxed text-ink/80">
-          {profile.summary}
-        </p>
+        <div className="mt-8 max-w-xl space-y-4 text-base leading-relaxed text-ink/80">
+          {profile.summary.map((paragraph) => (
+            <p key={paragraph}>{paragraph}</p>
+          ))}
+        </div>
         <div className="mt-10 flex flex-wrap items-center gap-4 text-sm">
           <a
             href="#experience"

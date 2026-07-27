@@ -5,8 +5,10 @@ export const profile = {
   email: 'jingjing.jacobson@gmail.com',
   linkedin: 'https://www.linkedin.com/in/jingjing-jacobson/',
   github: 'https://github.com/jingjing-jacobson',
-  summary:
-    'Senior full-stack engineer with a drive to craft intuitive, high-impact user experiences at scale. I bridge design and engineering to deliver polished solutions, and take pride in deep product ownership.',
+  summary: [
+    'Senior software engineer with a drive to craft intuitive, high-impact user experiences at scale. I bridge design and engineering to deliver polished solutions, and take pride in deep product ownership.',
+    'In my free time, I enjoy indoor rock climbing, reading, and more recently have been dabbling in DJ-ing!',
+  ],
 };
 
 export type Role = {
@@ -30,7 +32,7 @@ export const experience: Employer[] = [
         dates: '2024 – Present',
         description:
           "Led development of an AI-powered analytics insights feature with automated Slack reporting, plus a complete redesign of the Pendo home page. Implemented WCAG 2.1 AA accessibility improvements across the Analytics suite to meet a major enterprise customer commitment, and shipped a highly requested screenshot capture feature for the tagging workflow. Built the chat interface for Leo, Pendo's AI agent chatbot for analytics. Established as the team's subject matter expert for Pendo's core Tagging product, and co-chair of Pendo's Femmegineers ERG.",
-        tags: ['Vue.js', 'Typescript', 'Go', 'Express.js'],
+        tags: ['Vue.js', 'Typescript', 'Go', 'Node.js,', 'Express.js'],
       },
       {
         title: 'Software Engineer',

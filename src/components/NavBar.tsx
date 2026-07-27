@@ -10,6 +10,10 @@ export default function NavBar() {
       <div className="mx-auto flex max-w-4xl flex-wrap items-center justify-between gap-x-4 gap-y-2 px-6 py-5 sm:px-8">
         <a
           href="/"
+          onClick={(event) => {
+            event.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          }}
           className="whitespace-nowrap font-serif text-lg tracking-tight text-ink"
         >
           JingJing Jacobson
