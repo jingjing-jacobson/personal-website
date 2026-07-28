@@ -32,7 +32,7 @@ export const experience: Employer[] = [
         dates: '2024 – Present',
         description:
           "Led development of an AI-powered analytics insights feature with automated Slack reporting, plus a complete redesign of the Pendo home page. Implemented WCAG 2.1 AA accessibility improvements across the Analytics suite to meet a major enterprise customer commitment, and shipped a highly requested screenshot capture feature for the tagging workflow. Built the chat interface for Leo, Pendo's AI agent chatbot for analytics. Established as the team's subject matter expert for Pendo's core Tagging product, and co-chair of Pendo's Femmegineers ERG.",
-        tags: ['Vue.js', 'Typescript', 'Go', 'Node.js,', 'Express.js'],
+        tags: ['Vue.js', 'Typescript', 'Go', 'Node.js', 'Express.js'],
       },
       {
         title: 'Software Engineer',
