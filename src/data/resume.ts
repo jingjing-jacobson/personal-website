@@ -106,11 +106,27 @@ export const experience: Employer[] = [
   },
 ];
 
-export const education = {
-  degree: 'BS Computer Science',
-  dates: '2016 – 2020',
-  school: 'University of North Carolina at Chapel Hill',
+export type Education = {
+  degree: string;
+  dates: string;
+  school: string;
+  location: string;
 };
+
+export const education: Education[] = [
+  {
+    degree: 'BS Computer Science',
+    dates: '2016 – 2020',
+    school: 'University of North Carolina at Chapel Hill',
+    location: 'Chapel Hill, NC',
+  },
+  {
+    degree: 'High School Diploma',
+    dates: '2014 – 2016',
+    school: 'The North Carolina School of Science and Mathematics',
+    location: 'Durham, NC',
+  },
+];
 
 export type Project = {
   title: string;
@@ -146,8 +162,3 @@ export const projects: Project[] = [
     link: 'https://support.pendo.io/hc/en-us/articles/360032293971',
   },
 ];
-
-export const skills = {
-  languages: ['JavaScript', 'TypeScript', 'Python', 'Go', 'Java'],
-  technologies: ['React', 'Vue', 'Node.js', 'Express', 'Cypress', 'Jest', 'GCS'],
-};

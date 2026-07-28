@@ -1,4 +1,4 @@
-import { education, experience } from '../data/resume';
+import { experience } from '../data/resume';
 
 function companyDateRange(roles: { dates: string }[]) {
   const start = roles[roles.length - 1].dates.split(' – ')[0];
@@ -50,12 +50,6 @@ export default function Experience() {
             </div>
           ))}
         </div>
-
-        <p className="mt-14 text-sm text-muted">
-          {education.degree}, {education.school}
-          <span className="mx-2 text-line">·</span>
-          {education.dates}
-        </p>
       </div>
     </section>
   );
