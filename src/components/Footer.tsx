@@ -8,7 +8,7 @@ export default function Footer() {
         <h2 className="font-serif text-3xl tracking-tight text-ink">
           Let's talk
         </h2>
-        <p className="mt-4 max-w-md text-sm leading-relaxed text-muted">
+        <p className="mt-4 text-sm leading-relaxed text-muted">
           I'm open to new opportunities. The fastest way to reach me is email.
         </p>
         <div className="mt-8 flex flex-wrap gap-x-8 gap-y-3 text-sm">
